@@ -29,9 +29,6 @@ export default function Home() {
           しーえすえすいんじぇいえすもはじめました→{' '}
           <Span>Styled-components style!!!</Span>
         </p>
-        <p className={styles.description}>
-
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
