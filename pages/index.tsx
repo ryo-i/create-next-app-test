@@ -1,5 +1,14 @@
 import Head from 'next/head'
+import styled from 'styled-components';
 import styles from '../styles/Home.module.css'
+
+
+const Span = styled.span`
+  color: red;
+  background: #eee;
+  padding: 5px;
+`;
+
 
 export default function Home() {
   return (
@@ -16,7 +25,12 @@ export default function Home() {
 
         <p className={styles.description}>
           たいぷすくりぷと、はじめました→{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>pages/index.tsx</code><br />
+          しーえすえすいんじぇいえすもはじめました→{' '}
+          <Span>Styled-components style!!!</Span>
+        </p>
+        <p className={styles.description}>
+
         </p>
 
         <div className={styles.grid}>
