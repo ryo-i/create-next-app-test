@@ -11,17 +11,17 @@ const Span = styled.span`
 `;
 
 
-export default function Home() {
+export default function Other() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ようこそ、ねくすと・じぇいえすへ</title>
+        <title>別ページ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ようこそ、<a href="https://nextjs.org">ねくすと・じぇいえすへ！</a>
+          ここは別ページなのです
         </h1>
 
         <p className={styles.description}>
@@ -32,10 +32,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/other">
+          <Link href="/">
             <a className={styles.card}>
               <h3>メニュー &rarr;</h3>
-              <p>別ページに進む</p>
+              <p>トップに戻る</p>
             </a>
           </Link>
           <a href="https://www.i-ryo.com/entry/2021/04/23/071217" className={styles.card}>
