@@ -16,7 +16,7 @@ export default function Other() {
     <div className={styles.container}>
       <Head>
         <title>別ページ</title>
-        <meta name="twitter:description" content="ここは別ページなのです"/>
+        <meta name="description" content="ここは別ページなのです"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
