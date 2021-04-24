@@ -16,6 +16,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ようこそ、ねくすと・じぇいえすへ</title>
+        <meta name="twitter:description" content="Next.js + TypeScript + CSS in JS環境です"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
